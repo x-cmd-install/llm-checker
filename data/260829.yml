@@ -1,0 +1,58 @@
+about:
+  description: Advanced CLI tool that scans your hardware and tells you exactly which LLM or sLLM models you can run locally, with full Ollama integration.
+  license: NOASSERTION
+  homepage: https://www.npmjs.com/package/llm-checker
+  head: 5efc813
+  archived: false
+  latestVersion: v3.8.1
+  collectedAt: 2026-08-29T07:10:43Z
+timeline:
+  created: 2025-07-06
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-04
+popularity:
+  star: 2941
+  watcher: 19
+  fork: 198
+  release: 19
+  contributor: 5
+  pullRequest: 4
+  issue: 71
+language:
+  JavaScript: 2285496
+  Python: 44153
+  Shell: 9042
+totalLine: 2338691
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last90d:
+    since: 2026-05-31
+    release: 4
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last180d:
+    since: 2026-03-02
+    release: 11
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last360d:
+    since: 2025-09-03
+    release: 19
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
