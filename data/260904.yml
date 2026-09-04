@@ -7,7 +7,7 @@ about:
   head: 5efc813
   archived: false
   latestVersion: v3.8.1
-  collectedAt: 2026-09-04T19:40:22Z
+  collectedAt: 2026-09-04T20:59:52Z
 timeline:
   created: 2025-07-06
   lastCommit: 2026-08-28
@@ -82,5 +82,58 @@ total:
   openIssue: 7
   commit: 245
 ---
+path: /home/runner/.x-repo/github.com/Pavelevich/llm-checker
+collectedAt: 2026-09-04T20:59:58Z
+loc:
+  JavaScript:
+    code: 49266
+    comments: 3438
+    blanks: 6831
+    files: 137
+  Json:
+    code: 6133
+    comments: 0
+    blanks: 0
+    files: 3
+  C:
+    code: 3806
+    comments: 521
+    blanks: 706
+    files: 2
+  Python:
+    code: 840
+    comments: 95
+    blanks: 224
+    files: 3
+  Sh:
+    code: 201
+    comments: 46
+    blanks: 45
+    files: 2
+  CHeader:
+    code: 150
+    comments: 109
+    blanks: 44
+    files: 1
+  Yaml:
+    code: 113
+    comments: 0
+    blanks: 13
+    files: 7
+  Markdown:
+    code: 0
+    comments: 1914
+    blanks: 728
+    files: 17
+  Text:
+    code: 0
+    comments: 46
+    blanks: 0
+    files: 2
+total:
+  code: 61173
+  comments: 6324
+  blanks: 8714
+  files: 174
 ---
 
