@@ -12,6 +12,18 @@ Advanced CLI tool that scans your hardware and tells you exactly which LLM or sL
 x install llm-checker
 ```
 
+## Code insight
+
+Total: **69,762** lines of code across **167** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| JavaScript | 54,531 | 3,900 | 7,358 | 155 |
+| Json | 9,770 | 0 | 0 | 5 |
+| C | 3,806 | 521 | 706 | 2 |
+| Python | 840 | 95 | 224 | 3 |
+| Sh | 201 | 46 | 45 | 2 |
+
 ## Source
 
 - **Upstream**: <https://github.com/Pavelevich/llm-checker>
@@ -36,20 +48,11 @@ x install llm-checker
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 1 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 4 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 9 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 19 | 0 | 0 | 0 | 0 | 0 |
-
-## Code size
-
-Total: **69,762** lines of code across **167** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| JavaScript | 54,531 | 3,900 | 7,358 | 155 |
-| Json | 9,770 | 0 | 0 | 5 |
-| C | 3,806 | 521 | 706 | 2 |
-| Python | 840 | 95 | 224 | 3 |
-| Sh | 201 | 46 | 45 | 2 |
+| last720d | 2024-09-20 | 19 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -60,4 +63,4 @@ Install metadata for llm-checker lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:22:37Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:49:30Z._
