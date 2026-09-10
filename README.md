@@ -22,11 +22,10 @@ x install llm-checker
 
 - **Latest**: `v3.8.1` (2026-08-04)
 - **Last commit**: 2026-09-06
-- **Published**: 2026-08-04T15:51:27Z
 
 ## Popularity
 
-- **Stars**: 2,956 · **Forks**: 198 · **Open issues**: 79 · **Contributors**: 5
+- **Stars**: 2,958 · **Forks**: 198 · **Open issues**: 79 · **Contributors**: 5
 
 ## Totals (cumulative)
 
@@ -57,8 +56,8 @@ Total: **69,762** lines of code across **167** files in the top 5 languages.
 Install metadata for llm-checker lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `llm-checker` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/llm-checker.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/llm-checker.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:37:02Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:22:37Z._
