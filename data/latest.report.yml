@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.8.1"
   latestRelease: "v3.8.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T04:36:47Z
+  collectedAt: 2026-09-10T16:22:25Z
 timeline:
   created: 2025-07-06
   lastCommit: 2026-09-06
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-04
   lastPrerelease: 
 popularity:
-  star: 2956
+  star: 2958
   watcher: 20
   fork: 198
   release: 19
@@ -87,7 +87,7 @@ total:
   commit: 275
 ---
 path: /home/runner/.x-repo/github.com/Pavelevich/llm-checker
-collectedAt: 2026-09-10T04:36:54Z
+collectedAt: 2026-09-10T16:22:32Z
 loc:
   JavaScript:
     code: 54531
