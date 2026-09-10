@@ -1,0 +1,12 @@
+- repo: aur
+  srcname: llm-checker
+  binname: llm-checker
+  visiblename: llm-checker
+  version: 3.8.1
+  origversion: 3.8.1-1
+  status: unique
+  summary: CLI tool that scans hardware and recommends optimal LLM models for local inference with Ollama integration
+  maintainers:
+    - guglovich@aur
+  licenses:
+    - LicenseRef-NPDL-1.0
