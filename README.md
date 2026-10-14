@@ -14,12 +14,12 @@ x install llm-checker
 
 ## Code insight
 
-Total: **69,762** lines of code across **167** files in the top 5 languages.
+Total: **71,860** lines of code across **173** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| JavaScript | 54,531 | 3,900 | 7,358 | 155 |
-| Json | 9,770 | 0 | 0 | 5 |
+| JavaScript | 56,625 | 4,115 | 7,442 | 161 |
+| Json | 9,774 | 0 | 0 | 5 |
 | C | 3,806 | 521 | 706 | 2 |
 | Python | 840 | 95 | 224 | 3 |
 | Sh | 201 | 46 | 45 | 2 |
@@ -32,27 +32,27 @@ Total: **69,762** lines of code across **167** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v3.8.1` (2026-08-04)
-- **Last commit**: 2026-09-06
+- **Latest**: `v3.8.2` (2026-10-13)
+- **Last commit**: 2026-10-13
 
 ## Popularity
 
-- **Stars**: 3,024 · **Forks**: 203 · **Open issues**: 80 · **Contributors**: 5
+- **Stars**: 3,025 · **Forks**: 204 · **Open issues**: 80 · **Contributors**: 5
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 51 · **Open PRs**: 3 · **Closed issues**: 79 · **Open issues**: 1 · **Commits**: 275
+- **Releases**: 20 · **Merged PRs**: 52 · **Open PRs**: 0 · **Closed issues**: 79 · **Open issues**: 1 · **Commits**: 297
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-15 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-16 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-18 | 19 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-23 | 19 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-14 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-15 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-16 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-17 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-19 | 20 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-24 | 20 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for llm-checker lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T06:50:27Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T04:51:39Z._
