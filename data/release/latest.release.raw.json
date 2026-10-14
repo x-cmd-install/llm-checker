@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/signerless/llm-checker/releases/364987041",
-  "assets_url": "https://api.github.com/repos/signerless/llm-checker/releases/364987041/assets",
-  "upload_url": "https://uploads.github.com/repos/signerless/llm-checker/releases/364987041/assets{?name,label}",
-  "html_url": "https://github.com/signerless/llm-checker/releases/tag/v3.8.1",
-  "id": 364987041,
+  "url": "https://api.github.com/repos/signerless/llm-checker/releases/411588450",
+  "assets_url": "https://api.github.com/repos/signerless/llm-checker/releases/411588450/assets",
+  "upload_url": "https://uploads.github.com/repos/signerless/llm-checker/releases/411588450/assets{?name,label}",
+  "html_url": "https://github.com/signerless/llm-checker/releases/tag/v3.8.2",
+  "id": 411588450,
   "author": {
     "login": "signerless",
     "id": 109688848,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOPH3eSM4VwUKh",
-  "tag_name": "v3.8.1",
-  "target_commitish": "8935c9e77e5104d0fa4c50a560123b88b92155f0",
-  "name": "v3.8.1 — ModelVet verification and MCP integration",
+  "node_id": "RE_kwDOPH3eSM4YiFdi",
+  "tag_name": "v3.8.2",
+  "target_commitish": "2aa176be96d79cf5d814e2f87e7ea888ef5ff29d",
+  "name": "v3.8.2: Exact catalog metadata and hardware fixes",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-08-04T15:50:32Z",
-  "updated_at": "2026-08-04T15:51:27Z",
-  "published_at": "2026-08-04T15:51:27Z",
+  "created_at": "2026-10-13T11:12:46Z",
+  "updated_at": "2026-10-13T11:24:08Z",
+  "published_at": "2026-10-13T11:13:11Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/signerless/llm-checker/tarball/v3.8.1",
-  "zipball_url": "https://api.github.com/repos/signerless/llm-checker/zipball/v3.8.1",
-  "body": "Published to npm as llm-checker@3.8.1.\n\nThis GitHub release synchronizes the ModelVet 3.8.0 feature release and the 3.8.1 attribution patch.\n\nHighlights:\n- Structural verification for GGUF and safetensors through ModelVet WebAssembly, fully local and offline.\n- New verify command with machine-readable JSON and CI-friendly verdict exit codes.\n- Fail-closed Ollama verification gates for installed --verify and ai-run --verify, with the explicit --allow-unverified override.\n- Structural validation policies and audit reporting.\n- MCP verify_model support plus multi-client setup for Claude, Codex, Cursor, Windsurf, Gemini, Kimi, Grok, and generic clients.\n- Correct published MCP executable and npx launch command.\n- Prominent credit to [ModelVet](https://github.com/tetsuo-ai/modelvet), created by [Tetsuo AI](https://github.com/tetsuo-ai), with the bundled MIT notice documented in [THIRD_PARTY_NOTICES](https://github.com/signerless/llm-checker/blob/main/THIRD_PARTY_NOTICES).\n\nValidation:\n- 53 of 53 tests passing.\n- GitHub CI green on Node 18, 20, and 22 plus Windows UI and policy gates.\n- Zero production dependency audit findings.\n- Published npm tarball verified to include README and THIRD_PARTY_NOTICES.\n\nAn ACCEPT verdict confirms structural validity only; it does not assess model behavior, provenance, or poisoned weights.\n\nFull details: [changelog](https://github.com/signerless/llm-checker/blob/main/docs/reference/changelog.md)."
+  "tarball_url": "https://api.github.com/repos/signerless/llm-checker/tarball/v3.8.2",
+  "zipball_url": "https://api.github.com/repos/signerless/llm-checker/zipball/v3.8.2",
+  "body": "Published to npm as [llm-checker@3.8.2](https://www.npmjs.com/package/llm-checker/v/3.8.2).\n\n\n### Fixes merged since 3.8.1\n\n- Strix Halo and other AMD APUs: unified memory is recognized, and 256 MB\n  iGPU apertures are no longer read as 256 GB (#113, #134).\n- Uncensored models are only recommended when you ask for them (#114).\n- `ai-check` reuses the canonical GPU detection, and `gpu-plan` no longer\n  counts the same GPU twice across backends (#116, #117).\n- New `--cpu-only` mode forces CPU/RAM execution even when a GPU is\n  detected (#119).\n- Independent hardware probes run in parallel (#127).\n- Local speed measurements survive catalog rebuilds (#128).\n- All six benchmark sources feed model recommendations (#129).\n- Non-language repositories are excluded from recommendations (#131).\n- Evaluation counts are reported per category (#132).\n- The registry uses native SQLite, with a WASM fallback on older Node\n  versions (#133).\n- llama.cpp, Transformers and explicit runtime choices are honored (#135).\n- Ranking artifacts, benchmark identity and desktop compatibility (#136).\n- Two hardware tests simulate Linux explicitly, so the suite also passes on\n  macOS.\n\n### Exact catalog metadata (#138)\n\n- Hugging Face ingestion lists repos per language task and sweeps official\n  publishers, so the limit is spent on models the recommender can rank. The\n  weekly snapshot build had failed since July because the global download\n  ranking left too few language-model repos.\n- Exact parameter counts, dtypes, GGUF context windows and lineage come from\n  the Hub's `expand[]` metadata; `registry-sync --deep` adds observed file\n  sizes, SHA-256 hashes and `config.json` context windows. Complete shard sets\n  are one artifact; projectors, importance matrices and duplicate exports are\n  not artifacts. Official Mistral releases (no pipeline tag) are included.\n- The Ollama sync reads each tag's size, context window, input types and\n  digest, excludes cloud-only tags, and no longer invents sizes, Q4_0 or\n  4096-token defaults. `sync --exact` reads byte sizes, quantizations and\n  parameter counts from `registry.ollama.ai`.\n- Recommendations use each Ollama tag's own context window and inputs.\n- Existing databases adopt a newer packaged snapshot; `sync` keeps the\n  registry's Ollama rows instead of deleting them.\n- MCP `recommend` and `project_recommend` honor the requested category.\n- The packaged snapshot ships benchmark scores; existing databases adopt\n  them unless `quality-sync` refreshed a source more recently. New\n  `hf_eval_results` source (self-reported model-card results), and LiveBench\n  releases newer than the curated list are discovered automatically.\n- Ollama tags record their license from the manifest (`sync --exact`).\n- New registry source: ModelScope (`--sources modelscope`), with exact file\n  sizes, hashes, `config.json` context windows and `modelscope download` /\n  `VLLM_USE_MODELSCOPE` commands.\n- New registry source and runtime: Docker Model Runner (`docker`), from\n  Docker Hub's official `ai/` namespace, with pull/run commands and\n  format-aware hardware checks (MLX tags on Apple Silicon, vLLM tags on\n  NVIDIA).\n- Base/pretrained checkpoints rank below instruct builds; Ollama aliases and\n  quantizations of one base checkpoint collapse into one recommendation.\n- `check` on Apple Silicon ranks the synced catalog like other platforms\n  instead of only the 26 static definitions; `check`, `ai-check` and `ai-run`\n  read each model's real parameter count, size and context window instead of\n  guessing from its name. The curated fallback catalog was refreshed from\n  registry data (wrong families and non-existent tags fixed), and the unused\n  `scripts/update-models.js`, which injected invented models, was removed.\n"
 }
