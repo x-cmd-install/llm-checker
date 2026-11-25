@@ -37,7 +37,7 @@ Total: **71,860** lines of code across **173** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,074 · **Forks**: 201 · **Open issues**: 81 · **Contributors**: 5
+- **Stars**: 3,075 · **Forks**: 201 · **Open issues**: 81 · **Contributors**: 5
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **71,860** lines of code across **173** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 20 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 20 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 20 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 20 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for llm-checker lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T09:52:30Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:34:48Z._
